@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ecommerce.test.VerifyEcommercePages2">
+        <methods>
+          <include name="orderProduct"/>
+          <include name="navigateProductUsingNext"/>
+          <include name="verifyLogOut"/>
+          <include name="verifySignWithBlankSpace"/>
+          <include name="browseProduct"/>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+          <include name="verifyInvalidLogin"/>
+          <include name="verifySignUp"/>
+          <include name="launchBrowser"/>
+          <include name="navigateProductCatogary"/>
+        </methods>
+      </class> <!-- com.ecommerce.test.VerifyEcommercePages2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

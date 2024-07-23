@@ -136,7 +136,7 @@ public class EcommercePages {
 		passwordInputBox.sendKeys("Rut78123");
 		signUp.click();
 		Thread.sleep(5000);
-		Assert.assertEquals(driver.switchTo().alert().getText(), "Sign up successful");
+		Assert.assertEquals(driver.switchTo().alert().getText(), "Sign up successful.");
 		driver.switchTo().alert().accept();
 		closeButton.click();
 
